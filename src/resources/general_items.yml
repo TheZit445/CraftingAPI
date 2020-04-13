@@ -1,0 +1,25 @@
+# @lang= - tag to access the localization file.
+cell-background:
+  name: " &r"
+  material: BLACK_STAINED_GLASS_PANE
+button-create:
+  material: GREEN_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__BUTTON_CREATE_NAME]'
+  lore:
+  - '@lang=[ITEM__BUTTON_CREATE_LORE_1]'
+  - '@lang=[ITEM__BUTTON_CREATE_LORE_2]'
+button-allow:
+  material: GREEN_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__BUTTON_ALLOW_NAME]'
+button-deny:
+  material: RED_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__BUTTON_DENY_NAME]'
+cell-fuel:
+  material: ORANGE_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__CELL_FUEL_NAME]'
+button-next:
+  material: BLUE_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__BUTTON_NEXT_NAME]'
+button-previous:
+  material: BLUE_STAINED_GLASS_PANE
+  name: '@lang=[ITEM__BUTTON_PREVIOUS_NAME]'

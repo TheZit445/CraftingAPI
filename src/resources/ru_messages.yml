@@ -1,0 +1,45 @@
+# Gui titles.
+gui-title-recipe-creator: '&8Редактор рецептов'
+gui-title-recipes-viewer: '&8Просмотр рецептов'
+# CMD ansvers.
+cmd-permission-denied: "&cУ вас недостаточно прав!"
+cmd-only-player: 'Только игрок может использовать эту команду!'
+cmd-illegal-argument: '&cНеизвестный аргумент &4"%arg%"&c! Используйте &4/craftingapi help'
+cmd-use-help: "&6Используйте &e/craftingapi help"
+cmd-help-line-1: "&9 ~~~~~~~~~~~~ CraftingAPI ~~~~~~~~~~~~"
+cmd-help-line-2: "&b /craftingapi &3- помощь по командам."
+cmd-help-line-3: "&b /craftingapi create <type> <name> &3- создать рецепт."
+cmd-help-line-4: "&b /craftingapi remove <name> &3- удалить рецепт."
+cmd-help-line-5: "&b /craftingapi edit <name> &3- редактировать рецепт."
+cmd-help-line-6: "&b /craftingapi permission <name> [true|false] &3- использование права на крафт."
+cmd-help-line-7: "&b /craftingapi browse &3- просмотр всех рецептов."
+cmd-help-line-8: "&3 Типы рецептов: &bshaped&3, &bshapeless&3, &bfurnace&3."
+cmd-help-line-9: "&9 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+cmd-use-create: "&6Используйте &e/craftingapi create <type> <name>"
+cmd-create-illegal-recipe-type: "&cНеизвестный тип рецепта &4%type%&c! Доступные типы: &4shaped&c, &4shapeless&c, &4furnace&c, &4blasting&c, &4smoker&c, &4brewing&c."
+cmd-no-recipes: "&cНе создано ни одного пользовательского рецепта."
+cmd-use-view: "&6Используйте &e/craftingapi browse"
+cmd-use-edit: "&6Используйте &e/craftingapi edit <name>"
+cmd-use-remove: "&6Используйте &e/craftingapi remove <name>"
+cmd-use-setpermission: "&6Используйте &e/craftingapi permission <name> [true|false]"
+cmd-setpermission-illegal-boolean: "&cНеизвестное логическое значение &4%type%&c! Логичекие значения: &4true&c, &4false&c."
+cmd-setpermission-illegal-type: "&cНедопустимый тип рецепта &4%type%&c! Доступные типы: &4shaped&c, &4shapeless&c, &4furnace&c, &4blasting&c, &4smoker&c, &4brewing&c."
+cmd-remove-success: "&aРецепт &2%key% &aудалён!"
+cmd-remove-fail: "&cРецепт &4%key% &cне существует!"
+cmd-setpermission-success: "&aИспользование права для &2%key% &aустановлено на %use%!"
+cmd-setpermission-fail: "&cРецепт &4%key% &cне существует!"
+cmd-edit-fail: "&cРецепт &4%key% &cне существует!"
+# Gui messages
+gui-recipe-create-succefully: "&aРецепт &2%key%&a успешно создан!"
+gui-recipe-create-failly: "&cРецепт &4%key%&c уже существует"
+gui-recipe-update: "&aРецепт &2%key%&a успешно обновлён!"
+gui-recipe-create-brewing-not-a-potion: "&cПредмет должн быть зельем!"
+# Items Localization
+item.button-allow-name: "&aПринять"
+item.button-deny-name: "&cОтклонить"
+item.cell-fuel-name: "&6Образ топлива"
+item.button-create-name: "&aПодтвердить"
+item.button-create-lore-1: "&9Поле: &b%key%"
+item.button-create-lore-2: "&9Тип рецепта: &b%type%"
+item.button-next-name: "&bСледующая страница"
+item.button-previous-name: "&bПредыдущая страница"

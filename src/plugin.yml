@@ -1,0 +1,12 @@
+name: CraftingAPI
+author: thezit445
+version: 3.0.0
+prefix: CraftingAPI
+main: ru.thezit445.craftingapi.CraftingAPI
+depend: [NBTReflectionAPI]
+softdepend: [NBTReflectionAPI]
+api-version: 1.13
+commands:
+  craftingapi:
+    usage: /craftingapi
+    description: 'Default admin command'

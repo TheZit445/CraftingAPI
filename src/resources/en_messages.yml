@@ -1,0 +1,45 @@
+# Gui titles.
+gui-title-recipe-creator: '&8Recipe editor'
+gui-title-recipes-viewer: '&8Recipes viewer'
+# CMD ansvers.
+cmd-permission-denied: "&cYou don't have permission!"
+cmd-only-player: 'Only player can use this command!'
+cmd-illegal-argument: '&cIllegal argument &4"%arg%" &cin command! Use &4/craftingapi help'
+cmd-use-help: "&6Use &e/craftingapi help"
+cmd-help-line-1: "&9 ~~~~~~~~~~~~ CraftingAPI ~~~~~~~~~~~~"
+cmd-help-line-2: "&b /craftingapi &3- help with commands."
+cmd-help-line-3: "&b /craftingapi create <type> <name> &3- open recipe creator."
+cmd-help-line-4: "&b /craftingapi remove <name> &3- remove recipe."
+cmd-help-line-5: "&b /craftingapi edit <name> &3- edit recipe."
+cmd-help-line-6: "&b /craftingapi permission <name> [true|false] &3- set the use of permission."
+cmd-help-line-7: "&b /craftingapi browse &3- open recipe browser."
+cmd-help-line-8: "&3 Recipe types: &bshaped&3, &bshapeless&3, &bfurnace&3."
+cmd-help-line-9: "&9 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+cmd-use-create: "&6Use &e/craftingapi create <type> <name>"
+cmd-create-illegal-recipe-type: "&cIllegal recipe type &4%type%&c! Avalible types: &4shaped&c, &4shapeless&c, &4furnace&c, &4blasting&c, &4smoker&c, &4brewing&c."
+cmd-no-recipes: "&cNo custom recipes have been created."
+cmd-use-view: "&6Use &e/craftingapi browse"
+cmd-use-edit: "&6Use &e/craftingapi edit <name>"
+cmd-use-remove: "&6Use &e/craftingapi remove <name>"
+cmd-use-setpermission: "&6Use &e/craftingapi permission <name> [true|false]"
+cmd-setpermission-illegal-boolean: "&cIllegal boolean type &4%type%&c! Avalible types: &4true&c, &4false&c."
+cmd-setpermission-illegal-type: "&cIllegal recipe type &4%type%&c! Avalible types: &4shaped&c, &4shapeless&c, &4furnace&c, &4blasting&c, &4smoker&c, &4brewing&c."
+cmd-remove-success: "&aThe recipe &2%key% &ais removed!"
+cmd-remove-fail: "&cThe recipe &4%key% &cis not exist!"
+cmd-setpermission-success: "&aPermission for recipe &2%key% &ais %use%!"
+cmd-setpermission-fail: "&cThe recipe &4%key% &cis not exist!"
+cmd-edit-fail: "&cThe recipe &4%key% &cis not exist!"
+# Gui messages
+gui-recipe-create-succefully: "&aRecipe &2%key%&a is created successfully!"
+gui-recipe-create-failly: "&cRecipe with key &4%key%&c already exists!"
+gui-recipe-update: "&aRecipe &2%key%&a is updated successfully!"
+gui-recipe-create-brewing-not-a-potion: "&cItem must be a potion!"
+# Items Localization
+item.button-allow-name: "&aAccept"
+item.button-deny-name: "&cDeny"
+item.cell-fuel-name: "&6Fuel sample"
+item.button-create-name: "&aAccept"
+item.button-create-lore-1: "&9Namespaced key: &b%key%"
+item.button-create-lore-2: "&9Recipe type: &b%type%"
+item.button-next-name: "&bNext page"
+item.button-previous-name: "&bPreviuos page"
